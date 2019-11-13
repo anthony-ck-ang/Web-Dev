@@ -106,6 +106,19 @@ function mapQuest(k){
       }
     }).addTo(map);
     
+    //Add Marker (icon)
+    L.marker([37.7749, -122.4194], {
+          icon: L.mapquest.icons.marker({
+            primaryColor: '#262626',
+            secondaryColor: '#ffffff',
+            shadow: true,
+            size: 'md',
+            symbol: 'A'
+          })
+        })
+        .bindPopup('Hellooo!!!')
+        .addTo(map);
+    
 //    dc.setFirstDestination({
 //      latLng: {
 //        lat: 1.3521,
