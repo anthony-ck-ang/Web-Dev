@@ -1,7 +1,7 @@
       // Defining a baseURL and key to as part of the request URL
 
       let baseURL = 'https://api.nytimes.com/svc/search/v2/articlesearch.json';
-      let key = 'sHSEaRDxZGxL8pJQ2m3oKS6TDRcEOQtU';
+      let key = '';
       let url;
 
       // Grab references to all the DOM elements to be manipulated
@@ -155,24 +155,3 @@ function displayResults(json) {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
