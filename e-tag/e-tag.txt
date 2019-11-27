@@ -80,3 +80,6 @@ E-Tag: "10e54gf-6ae-25w1dz8f"
 
 Server will always send 304, thus client will always req (send that same e-tag back in the If-None-Match header) in the same way
 Establish a client identity to the server (e-tag suddenly becomes like an uid for the server to identify you)
+
+Further rsc:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
