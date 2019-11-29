@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link href="/assets/style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>Employee List:</h1>
+		<table>
+					<tr>
+						<td>EmpID</td>
+						<td>Name</td>
+						<td>EmpCode</td>
+						<td>Salary</td>
+					</tr>
+				<% for(let i=0; i < D.length; i++) { %>
+				   <tr>
+					 <td><%= D[i].EmpID %></td>
+					 <td><%= D[i].Name %></td>
+					 <td><%= D[i].EmpCode %></td>
+					 <td><%= D[i].Salary %></td>
+				   </tr>
+				<% } %>
+		</table>
+	</body>
+</html>
