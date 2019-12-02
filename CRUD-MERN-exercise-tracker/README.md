@@ -6,9 +6,11 @@ Check if node is installed:  `node -v`
 ## `Create project folder`
 
 ### `Create backend folder`
+
 For package.json:  `npm init -y`
 
-`npm install express cors mongoose dotenv`  ||  `npm install --save`<br />
+### `Dependencies`
+`npm install express cors mongoose dotenv --save`  ||  `npm install --save`<br />
 `npm install -g nodemon` </br>
 
 `Cors` 
@@ -59,6 +61,7 @@ Remove unnecessary auto generated files
 
 `npm start` to run app in development mode to check
 
+### `Dependencies`
 `npm install bootstrap --save` <br />
 `npm install react-router-dom --save`<br />
 `npm install react-datepicker --save`<br />
