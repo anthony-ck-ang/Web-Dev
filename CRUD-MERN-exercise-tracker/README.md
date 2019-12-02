@@ -9,12 +9,12 @@ Check if node is installed:  `node -v`
 For package.json:  `npm init -y`
 
 `npm install express cors mongoose dotenv`  ||  `npm install --save`<br />
-`npm install -g nodemon`
+`npm install -g nodemon` </br>
 
-
-`Cors` allows ajax req to skip same-origin policy<br />
+`Cors` 
+- allows ajax req to skip same-origin policy<br />
 and access rsc from remote hosts.<br />
-Allows server to access rsc outside of our server (diff origin/domain).
+- Allows server to access rsc outside of our server (diff origin/domain).
 
 `Mongoose` allows interaction mongodb through nodeJS simpler.
 
@@ -31,6 +31,8 @@ Allows server to access rsc outside of our server (diff origin/domain).
 
 1. Create server file: <br />
 server.js <br />
+
+To start server:
 `nodemon server.js`
 
 2. Connection <br />
@@ -42,11 +44,9 @@ Copy the Cluster connection string from cloud.mongodb.com and paste in .env
 
 4. Create routes
 
-5. Test CRUD routes with POSTMAN  ||  Insomnia <br />
+5. Test CRUD routes with POSTMAN  ||  Insomnia <br /> && Check MongoDB Atlas DashBoard
 
-&& Check MongoDB Atlas DashBoard
 
-<br />
 ## Front end:
 
 ## `Create frontend folder`
@@ -79,7 +79,7 @@ Add to package.json:
     "react-scripts": "3.0.1"
   }
 ```
-  <br />
+  
   `npm install --save`<br />
   `npm update --save`
 
