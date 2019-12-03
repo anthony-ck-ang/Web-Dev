@@ -39,7 +39,7 @@ To start server:
 
 2. Connection <br />
 https://www.npmjs.com/package/dotenv<br />
-Create .env file at root of project  ||  in backend folder<br />
+Create .env file in the backend folder<br />
 Copy the Cluster connection string from cloud.mongodb.com and paste in .env
 
 3. Create models
