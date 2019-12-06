@@ -16,8 +16,8 @@ For package.json:  `npm init -y`
 ```
 
 ### `Dependencies`
-`npm install express cors mongoose dotenv --save`  ||  `npm install --save`<br />
-`npm install -g nodemon` || `npm install nodemon --save` </br>
+`npm install express cors mongoose dotenv --save`  |  `npm install --save`<br />
+`npm install -g nodemon` | `npm install nodemon --save` </br>
 
 `Cors` 
 - allows ajax req to skip same-origin policy<br />
@@ -41,7 +41,7 @@ and access rsc from remote hosts.<br />
 server.js <br />
 
 To start server:
-`nodemon server.js` || `nodemon server.js` || `npm run server`
+`nodemon server.js` | `nodemon server.js` | `npm run server`
 
 2. Connection <br />
 https://www.npmjs.com/package/dotenv<br />
@@ -52,7 +52,7 @@ Copy the Cluster connection string from cloud.mongodb.com and paste in .env
 
 4. Create routes
 
-5. Test CRUD routes with POSTMAN  ||  Insomnia <br /> && Check MongoDB Atlas DashBoard
+5. Test CRUD routes with POSTMAN  |  Insomnia <br /> && Check MongoDB Atlas DashBoard
 
 
 ## Front end:
