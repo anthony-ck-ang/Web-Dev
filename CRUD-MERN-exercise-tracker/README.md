@@ -9,9 +9,15 @@ Check if node is installed:  `node -v`
 
 For package.json:  `npm init -y`
 
+```html
+"scripts": {
+    "server": "nodemon server.js"
+  }
+```
+
 ### `Dependencies`
 `npm install express cors mongoose dotenv --save`  ||  `npm install --save`<br />
-`npm install -g nodemon` </br>
+`npm install -g nodemon` || `npm install nodemon --save` </br>
 
 `Cors` 
 - allows ajax req to skip same-origin policy<br />
@@ -35,7 +41,7 @@ and access rsc from remote hosts.<br />
 server.js <br />
 
 To start server:
-`nodemon server.js`
+`nodemon server.js` || `nodemon server.js` || `npm run server`
 
 2. Connection <br />
 https://www.npmjs.com/package/dotenv<br />
