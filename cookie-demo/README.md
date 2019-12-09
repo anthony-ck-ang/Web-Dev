@@ -86,6 +86,5 @@ possibly prepare customized Web pages or to save information.
 ```html
 Set the above cookie on example.com in the console: 
 To open the console -> ctrl + shift + I
-Check the Aplication && || Network tab
-If we navigate to example.com from your website, the cookie will not be sent
+Check out the cookie in the Aplication && || Network tab
 ```
