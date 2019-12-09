@@ -2,13 +2,17 @@
 ## `Installation and setup`
 
 
-Install MySQL server and workbench
-- Open mysql commandline
-- Key in pw
+### `Install`
+- MySQL Server 
+- MySQL Workbench
 
 <br>
 
+### `Connect`
 ```html
+- Open mysql commandline
+- Key in pw
+
 show databases;
 use <db name>;
 show tables;
@@ -17,7 +21,7 @@ show tables;
 or...
 
 
-`mysql workbench`
+`MySQL Workbench`
 - Under Database tab, select 'Connect to Database..'
 - Key in params and click 'ok'
 - Under Navigator -> SCHEMAS, right click to create schema... employeedb
@@ -48,12 +52,12 @@ INSERT INTO `employee` VALUES
 UNLOCK TABLES;
 ```
 
-### `SELECT all employee`
+### `SELECT all employees`
 ```html
 SELECT * FROM employeedb.employee;
 ```
 
-
+## `Possible Issue`
 - https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
 
 ```html
@@ -62,7 +66,8 @@ flush privileges;
 ```
 
 
-### `Store Procedure for 'Insert employee'`
+### `Store Procedure`
+## `Insert employee`
 
 - In mysql workbench, under employeedb -> Stored Procedure
 - Right click 'create stored procedure..'
@@ -131,5 +136,6 @@ Body: JSON(application/json)
 ### `DELETE an employee`
 ```html
 DELETE: http://localhost:8080/employee/1
+
 -> Send 
 ```
