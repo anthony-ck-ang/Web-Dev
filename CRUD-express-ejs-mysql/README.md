@@ -1,5 +1,5 @@
 
-## `Installation and Connection`
+## `Installation | Connection`
 
 ### `Install`
 - MySQL Server 
@@ -23,6 +23,8 @@ or...
 - Key in params and click 'ok'
 - Under Navigator -> SCHEMAS, right click to create schema... employeedb
 - Open a new sql tab ->
+
+<br>
 
 ## `Setup`
 ### `CREATE table`
