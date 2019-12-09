@@ -80,10 +80,12 @@ possibly prepare customized Web pages or to save information.
      
 <br>     
 
-### `Set this cookie on example.com in the console:`
+### `Cookie Exercise`
      
 `document.cookie="secretcookie=1; samesite=strict";`
 ```html
-Check the Aplication or Network tab in the console.
+Set the above cookie on example.com in the console: 
+To opent the console -> ctrl + shift + I
+Check the Aplication && || Network tab
 If we navigate to example.com from your website, the cookie will not be sent
 ```
