@@ -1,12 +1,9 @@
 
-## `Installation and setup`
-
+## `Installation and Connection`
 
 ### `Install`
 - MySQL Server 
 - MySQL Workbench
-
-<br>
 
 ### `Connect`
 ```html
@@ -27,6 +24,7 @@ or...
 - Under Navigator -> SCHEMAS, right click to create schema... employeedb
 - Open a new sql tab ->
 
+## `Setup`
 ### `CREATE table`
 ```html
 use employeedb;
@@ -56,6 +54,7 @@ UNLOCK TABLES;
 ```html
 SELECT * FROM employeedb.employee;
 ```
+<br>
 
 ## `Possible Issue`
 - https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
@@ -65,9 +64,10 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root'
 flush privileges;
 ```
 
+<br>
 
-### `Store Procedure`
-## `Insert employee`
+## `Store Procedure`
+### `Insert employee`
 
 - In mysql workbench, under employeedb -> Stored Procedure
 - Right click 'create stored procedure..'
@@ -99,6 +99,7 @@ BEGIN
 END
 ```
 
+<br>
 
 ## `POSTMAN`
 
