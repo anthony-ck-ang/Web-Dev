@@ -1,6 +1,8 @@
 ## `Cookies`
-- The main purpose of a cookie is to identify users and <br> possibly prepare customized Web pages or to save information.
-    
+```html
+The main purpose of a cookie is to identify users and
+possibly prepare customized Web pages or to save information.
+```
 <br>
 
 ## `Some Types:`
@@ -33,7 +35,8 @@
 - External cookies that track users eg: IP address, website...  
 - eg. ads/ vids or imgs from other sites embedded in your blog (google/ youtube)
 - Your blog will set cookies for your site/domain.
-- These ads/ vids/ img component will make req to third party domain eg. google analytics and they will set their own cookies in your site.
+- These ads/ vids/ img component will make req to third party domain 
+  eg. google analytics and they will set their own cookies in your site.
 - These cookies cannot be accessed from your site, vice versa but are sitting in your site/domain.
 ```
 
@@ -41,7 +44,8 @@
 ```html
 - Is recreated with same values even after being deleted; e-tags from the server 
 - ETag (entity tag) response header provides a mechanism to cache unchanged resources
-- 304 Not Modified is an HTTP status code that is returned to the client when the cached copy of a particular file is up to date with the server. 
+- 304 Not Modified is an HTTP status code that is returned to the client 
+  when the cached copy of a particular file is up to date with the server. 
 - When a client such as a browser stores something in cache, it also keeps the Last-Modified header sent from the server
 ```
 <br>
@@ -62,7 +66,9 @@ Stealing cookies, inject XSS script:
  
 - GET req should always be read only to server
 - POST is used instead to submit any data to be changed
-- Hacker don’t want your cookie, they just want to make a request on your behalf using your cookie while you are signed in to your bank and will inject a script that makes a request on your bank to transfer themselves money in the same site/url
+- Hacker don’t want your cookie, they just want to make a request on your behalf 
+  using your cookie while you are signed in to your bank and will inject a script 
+  that makes a request on your bank to transfer themselves money in the same site/url
 ```
 
 <br>
