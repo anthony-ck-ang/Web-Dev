@@ -55,14 +55,16 @@
 <br>
     
  ## `Security`
-`Stealing cookies, inject XSS script:`
+ ```html
+Stealing cookies, inject XSS script:
 - Having a client side js program that reads your cookie (document.cookie) and send it else where
 - eg. if you click any link and your cookie is not set same-site, the browser will send that cookie GET req
  
 - GET req should always be read only to server
 - POST is used instead to submit any data to be changed
 - Hacker don’t want your cookie, they just want to make a request on your behalf using your cookie while you are signed in to your bank and will inject a script that makes a request on your bank to transfer themselves money in the same site/url
-    
+```
+
 <br>
 
 ## `Samesite`
