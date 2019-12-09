@@ -1,35 +1,37 @@
 ## `Download:`
+```html
 - Python
 - Firefox | Chrome
 - Gecko driver | Chrome driver
+```
 
-`https://github.com/mozilla/geckodriver/releases`
-`https://chromedriver.chromium.org/`
+- https://github.com/mozilla/geckodriver/releases
+- https://chromedriver.chromium.org/
 
-`Copy and paste below to python folder:`
-`geckodriver.exe` |  `chromedriver.exe`
+`Copy and paste geckodriver.exe |  chromedriver.exe to python folder:` <br>
 C:\Users\<xxx>\AppData\Local\Programs\Python\Python38-32
 
 ## Installations
-`Install all packages in the `requirement.txt` file`
+Install all packages in the `requirement.txt` file
 
-Python 2
+Python 2 <br>
 `pip install -r requirements.txt`
 
-Python 3
+Python 3 <br>
 `pip3 install -r requirements.txt`
 
 ## `Possible Issues`
 
-https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command
-`python get-pip.py`
+https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command <br>
+`python get-pip.py` <br>
 `pip install --upgrade pip`
 
 https://www.pythoncentral.io/add-python-to-path-python-is-not-recognized-as-an-internal-or-external-command/
-`Set path env var`
+<br>
+`Set path env var` <br>
 `echo %PATH%`
 
 
 ## `Other Rsc:`
-https://selenium-python.readthedocs.io/locating-elements.html#locating-by-xpath
+- https://selenium-python.readthedocs.io/locating-elements.html#locating-by-xpath
 
