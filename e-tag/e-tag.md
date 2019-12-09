@@ -17,6 +17,7 @@ E-Tag: "10e54gf-6ae-25w1dz8f"
 - If rsc is not changed (e tag validation match), server will not need to send new res/data (returns 304)
 - client will take from their local cache
 
+<br>
 
 ## Pros
 - Improves caching and performance
@@ -32,6 +33,7 @@ multiple request/transactions of certain rsc can be executed in parallel (GET)
 - eg. if someone has modified the data before my read, my etag will not match,
 and transaction will fail
 
+<br>
 
 ## Cons
 
