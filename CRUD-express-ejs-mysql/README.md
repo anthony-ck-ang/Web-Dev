@@ -1,8 +1,8 @@
---------------------------------------------------------------------------------------
-## Installation
 
-`mysql installer`
-- to install MySQL server and workbench
+## `Installation and setup`
+
+
+Install MySQL server and workbench
 - Open mysql commandline
 - Key in pw
 
@@ -20,10 +20,10 @@ or...
 `mysql workbench`
 - Under Database tab, select 'Connect to Database..'
 - Key in params and click 'ok'
-
 - Under Navigator -> SCHEMAS, right click to create schema... employeedb
 - Open a new sql tab ->
---------------------------------------------------------------------------------------
+
+### `CREATE table`
 ```html
 use employeedb;
 
@@ -35,7 +35,8 @@ CREATE TABLE `employee` (
     PRIMARY KEY (`EmpID`)
 ) AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4;
 ```
---------------------------------------------------------------------------------------
+
+### `ADD employees`
 ```html
 use employeedb;
 
@@ -46,11 +47,12 @@ INSERT INTO `employee` VALUES
 (3,'JAMES NEWTON','EMP03', 33333);
 UNLOCK TABLES;
 ```
---------------------------------------------------------------------------------------
+
+### `SELECT all employee`
 ```html
 SELECT * FROM employeedb.employee;
 ```
---------------------------------------------------------------------------------------
+
 
 - https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
 
@@ -59,14 +61,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root'
 flush privileges;
 ```
 
---------------------------------------------------------------------------------------
-```html
-Delete an employee; POSTMAN 
 
-DELETE: http://localhost:8080/employee/1
--> Send 
-```
---------------------------------------------------------------------------------------
 ### `Store Procedure for 'Insert employee'`
 
 - In mysql workbench, under employeedb -> Stored Procedure
@@ -99,10 +94,11 @@ BEGIN
 END
 ```
 
---------------------------------------------------------------------------------------
-```
-Insert an employee; POSTMAN 
 
+## `POSTMAN`
+
+### `ADD an employee`
+```html
 POST: http://localhost:8080/employee
 Body: JSON(application/json)
 
@@ -113,13 +109,12 @@ Body: JSON(application/json)
 	"Salary":44444
 }
 
-
 -> Send 
 ```
---------------------------------------------------------------------------------------
-```html
-UPDATE an employee; POSTMAN 
 
+
+### `UPDATE an employee`
+```html
 PUT: http://localhost:8080/employee
 Body: JSON(application/json)
 
@@ -130,6 +125,11 @@ Body: JSON(application/json)
 	"Salary":55555
 }
 
+-> Send 
+```
 
+### `DELETE an employee`
+```html
+DELETE: http://localhost:8080/employee/1
 -> Send 
 ```
