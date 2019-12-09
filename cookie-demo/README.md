@@ -85,7 +85,7 @@ possibly prepare customized Web pages or to save information.
 `document.cookie="secretcookie=1; samesite=strict";`
 ```html
 Set the above cookie on example.com in the console: 
-To opent the console -> ctrl + shift + I
+To open the console -> ctrl + shift + I
 Check the Aplication && || Network tab
 If we navigate to example.com from your website, the cookie will not be sent
 ```
