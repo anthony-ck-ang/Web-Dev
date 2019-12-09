@@ -82,6 +82,6 @@ Stealing cookies, inject XSS script:
 ### `Set this cookie on example.com in the console:`
      
 `document.cookie="secretcookie=1; samesite=strict";`
-     
- - If we navigate to example.com from your website, the cookie will not be sent
-    
+```html
+If we navigate to example.com from your website, the cookie will not be sent
+```
