@@ -4,37 +4,46 @@
 <br>
 
 ## `Some Types:`
-
-<br>
-        
+    
 ### `1. Session` 
+```html
 - Is destroyed after browser close
+```
 
 ### `2. Permanent` 
+```html
 - Has max-age or expiry set, can live after browser close
+```
 
 ### `3. httponly` 
+```html
 - Can only be set from server
 - Browser cannot read and get with document.cookie; 
 - This cookie is also sent with every req
 - Can be used for, tokens; session-id (if you don't want it to be stolen)
+```
 
 ### `4. Secure` 
+```html
 - Only for https sites
+```
 
 ### `5. Third party` 
+```html
 - External cookies that track users eg: IP address, website...  
 - eg. ads/ vids or imgs from other sites embedded in your blog (google/ youtube)
 - Your blog will set cookies for your site/domain.
 - These ads/ vids/ img component will make req to third party domain eg. google analytics and they will set their own cookies in your site.
 - These cookies cannot be accessed from your site, vice versa but are sitting in your site/domain.
+```
 
 ### `6. Zombie` 
+```html
 - Is recreated with same values even after being deleted; e-tags from the server 
 - ETag (entity tag) response header provides a mechanism to cache unchanged resources
 - 304 Not Modified is an HTTP status code that is returned to the client when the cached copy of a particular file is up to date with the server. 
 - When a client such as a browser stores something in cache, it also keeps the Last-Modified header sent from the server
-
+```
 <br>
     
 ## `Scope`
