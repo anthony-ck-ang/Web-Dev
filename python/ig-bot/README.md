@@ -8,10 +8,10 @@
 - https://github.com/mozilla/geckodriver/releases
 - https://chromedriver.chromium.org/
 
-`Copy and paste geckodriver.exe |  chromedriver.exe to python folder:` <br>
+Copy and paste `geckodriver.exe` |  `chromedriver.exe` to python folder: <br>
 C:\Users\<xxx>\AppData\Local\Programs\Python\Python38-32
 
-## Installations
+## `Installations:`
 Install all packages in the `requirement.txt` file
 
 Python 2 <br>
@@ -20,7 +20,7 @@ Python 2 <br>
 Python 3 <br>
 `pip3 install -r requirements.txt`
 
-## `Possible Issues`
+## `Possible Issues:`
 
 https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command <br>
 `python get-pip.py` <br>
