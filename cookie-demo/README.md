@@ -60,8 +60,8 @@ possibly prepare customized Web pages or to save information.
 <br>
     
  ## `Security`
+ ### `Stealing cookies, inject XSS script:`
  ```html
-Stealing cookies, inject XSS script:
 - Having a client side js program that reads your cookie (document.cookie) and send it else where
 - eg. if you click any link and your cookie is not set same-site, the browser will send that cookie GET req
  
@@ -78,10 +78,12 @@ Stealing cookies, inject XSS script:
 - https://web.dev/samesite-cookies-explained/
 - https://web.dev/samesite-cookie-recipes/
      
-     
+<br>     
+
 ### `Set this cookie on example.com in the console:`
      
 `document.cookie="secretcookie=1; samesite=strict";`
 ```html
+Check the Aplication or Network tab in the console.
 If we navigate to example.com from your website, the cookie will not be sent
 ```
