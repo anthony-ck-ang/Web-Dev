@@ -1,12 +1,18 @@
 ```html
 
-												 Job src:
-												 <- Indeed
-Front end	<->	API		<-> Redis	<- cron job  <- Github
-												 <- Stackoverflow
+									  		 [Job Src:]
+										
+[ Front end ]  <-------> [ API ] <------->  [ Redis ]  <-------  [ Cron job ]  <-------  [ Github ]
+								 	       <-------  [ Stackoverflow ]
 												 
 ```
 
+## `What it does?`
+```html
+- Fetch jobs from multiple sources (Github + Stackoverflow)
+- Internally filter based on certain key words (can be changed)
+- Populate in the front end for job view and application
+```
 <br>
 
 ## `Technologies used:`
