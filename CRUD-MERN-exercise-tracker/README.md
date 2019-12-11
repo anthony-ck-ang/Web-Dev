@@ -6,15 +6,14 @@ An exercise tracker built from the MERN stack that does CRUD operations.
 <br>
 
 # `Instructions:`
-```html
-Check if node is installed:  `node -v`
-```
 
 <br>
 
 ## `Create Project Folder:`
 
-## `Back-end`
+```html
+Check if node is installed:  `node -v`
+```
 
 ## `Create Backend Folder`
 
