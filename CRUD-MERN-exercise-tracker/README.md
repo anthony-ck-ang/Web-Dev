@@ -12,11 +12,11 @@ Check if node is installed:  `node -v`
 
 <br>
 
-# `Create project folder`
+## `Create Project Folder:`
 
-# `Back-end:`
+## `Back-end`
 
-## `Create backend folder`
+## `Create Backend Folder`
 
 For package.json:  `npm init -y`
 
@@ -64,9 +64,8 @@ and access rsc from remote hosts.<br />
 
 <br>
 
-# `Front-end:`
 
-## `Create frontend folder`
+## `Create Frontend Folder`
 
 https://github.com/facebook/create-react-app <br />
 Bootstrap project with: 
