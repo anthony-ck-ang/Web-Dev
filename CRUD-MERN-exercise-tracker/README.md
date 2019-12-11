@@ -1,17 +1,24 @@
-## `What it does?`
+# `What it does?`
 ```html
 An exercise tracker built from the MERN stack that does CRUD operations.
 ```
 
 <br>
 
-## `Instructions`
-
+# `Instructions:`
+```html
 Check if node is installed:  `node -v`
+```
 
-## `Create project folder`
+# `Create project folder`
 
-### `Create backend folder`
+
+
+<br>
+
+# `Back end:`
+
+## `Create backend folder`
 
 For package.json:  `npm init -y`
 
@@ -20,28 +27,6 @@ For package.json:  `npm init -y`
     "server": "nodemon server.js"
   }
 ```
-
-### `Dependencies`
-`npm install express cors mongoose dotenv --save`  ||  `npm install --save`<br />
-`npm install -g nodemon` || `npm install nodemon --save` </br>
-
-`Cors` 
-- allows ajax req to skip same-origin policy<br />
-and access rsc from remote hosts.<br />
-- Allows server to access rsc outside of our server (diff origin/domain).
-
-`Mongoose` allows interaction mongodb through nodeJS simpler.
-
-### `Makes development easier` <br />
-`dotenv`
-- loads environment variables from .env file to process.env
-- instead of setting env var on dev machine, they can be stored in a file
-
-`Nodemon`
-- auto restart node app /server when code/file changes
-
-
-## `Back end`
 
 1. Create server file: <br />
 server.js <br />
@@ -60,8 +45,28 @@ Copy the Cluster connection string from cloud.mongodb.com and paste in .env
 
 5. Test CRUD routes with POSTMAN  ||  Insomnia <br /> && Check MongoDB Atlas DashBoard
 
+## `Dependencies`
+`npm install express cors mongoose dotenv --save`  ||  `npm install --save`<br />
+`npm install -g nodemon` || `npm install nodemon --save` </br>
 
-## `Front end:`
+`Cors` 
+- allows ajax req to skip same-origin policy<br />
+and access rsc from remote hosts.<br />
+- Allows server to access rsc outside of our server (diff origin/domain).
+
+`Mongoose` allows interaction mongodb through nodeJS simpler.
+
+## `Makes development easier` <br />
+`dotenv`
+- loads environment variables from .env file to process.env
+- instead of setting env var on dev machine, they can be stored in a file
+
+`Nodemon`
+- auto restart node app /server when code/file changes
+
+<br>
+
+# `Front end:`
 
 ## `Create frontend folder`
 
@@ -97,9 +102,10 @@ Add to package.json:
   
   `npm install --save`<br />
   `npm update --save`
+  
+<br>
 
-
-## `General`
+# `General`
 1. Create and import components to app.js
 
 2. User react-router to map routes/path to load certain components
