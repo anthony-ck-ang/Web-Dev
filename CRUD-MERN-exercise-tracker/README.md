@@ -1,4 +1,4 @@
-# `What it does?`
+# What it does?
 ```html
 An exercise tracker built from the MERN stack that does CRUD operations.
 ```
