@@ -7,7 +7,7 @@
 												 
 ```
 
-# `What it does?`
+# What it does?
 ```html
 - Fetch jobs from multiple sources (Github + Stackoverflow)
 - Internally filter based on certain key words (can be changed)
