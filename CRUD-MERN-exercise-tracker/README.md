@@ -10,13 +10,11 @@ An exercise tracker built from the MERN stack that does CRUD operations.
 Check if node is installed:  `node -v`
 ```
 
-# `Create project folder`
-
-
-
 <br>
 
-# `Back end:`
+# `Create project folder`
+
+# `Back-end:`
 
 ## `Create backend folder`
 
@@ -66,7 +64,7 @@ and access rsc from remote hosts.<br />
 
 <br>
 
-# `Front end:`
+# `Front-end:`
 
 ## `Create frontend folder`
 
