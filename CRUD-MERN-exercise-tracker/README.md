@@ -3,9 +3,12 @@
 An exercise tracker built from the MERN stack that does CRUD operations.
 ```
 
-# `Instructions:`
+# Instructions:
+
+<br>
 
 # `Create Project Folder:`
+
 ## `Create Backend Folder:`
 
 ```html
