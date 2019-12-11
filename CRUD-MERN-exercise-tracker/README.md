@@ -7,15 +7,13 @@ An exercise tracker built from the MERN stack that does CRUD operations.
 
 # `Instructions:`
 
-<br>
-
-## `Create Project Folder:`
+# `Create Project Folder:`
 
 ```html
 Check if node is installed:  `node -v`
 ```
 
-## `Create Backend Folder`
+# `Create Backend Folder:`
 
 For package.json:  `npm init -y`
 
@@ -64,7 +62,7 @@ and access rsc from remote hosts.<br />
 <br>
 
 
-## `Create Frontend Folder`
+# `Create Frontend Folder:`
 
 https://github.com/facebook/create-react-app <br />
 Bootstrap project with: 
@@ -101,7 +99,7 @@ Add to package.json:
   
 <br>
 
-# `General`
+# `General:`
 1. Create and import components to app.js
 
 2. User react-router to map routes/path to load certain components
