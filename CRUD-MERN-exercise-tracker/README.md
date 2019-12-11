@@ -3,12 +3,10 @@
 An exercise tracker built from the MERN stack that does CRUD operations.
 ```
 
-<br>
-
 # `Instructions:`
 
 # `Create Project Folder:`
-# `Create Backend Folder:`
+## `Create Backend Folder:`
 
 ```html
 Check if node is installed:  `node -v`
@@ -61,7 +59,7 @@ and access rsc from remote hosts.<br />
 <br>
 
 
-# `Create Frontend Folder:`
+## `Create Frontend Folder:`
 
 https://github.com/facebook/create-react-app <br />
 Bootstrap project with: 
