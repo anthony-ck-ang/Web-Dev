@@ -8,12 +8,11 @@ An exercise tracker built from the MERN stack that does CRUD operations.
 # `Instructions:`
 
 # `Create Project Folder:`
+# `Create Backend Folder:`
 
 ```html
 Check if node is installed:  `node -v`
 ```
-
-# `Create Backend Folder:`
 
 For package.json:  `npm init -y`
 
