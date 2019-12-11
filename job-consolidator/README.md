@@ -7,7 +7,7 @@
 												 
 ```
 
-## `What it does?`
+# `What it does?`
 ```html
 - Fetch jobs from multiple sources (Github + Stackoverflow)
 - Internally filter based on certain key words (can be changed)
@@ -15,7 +15,7 @@
 ```
 <br>
 
-## `Technologies used:`
+# `Technologies used:`
 - React w/ Hooks + MUI (front end)
 - Node-Express JS (api endpoints)
 - Cron worker (fetch data)
@@ -23,18 +23,18 @@
 
 <br>
 
-## `To start project:`
+# `To start project:`
 
 <br>
 
-### `Start Server:`
+## `Start Server:`
 ```html
 npm run server
 ```
 
 <br>
 
-### `Start Redis:`
+## `Start Redis:`
 `Open Ubuntu desktop app ->`
 ```html
 sudo service redis-server start
@@ -43,21 +43,21 @@ redis-cli
 
 <br>
 
-### `Start Cron:`
+## `Start Cron:`
 ```html
 node api/worker/index.js
 ```
 
 <br>
 
-### `Start React:`
+## `Start React:`
 ```html
 npm start
 ```
 
 <br>
 
-## `Other rsc:`
+# `Other Rsc:`
 - https://www.npmjs.com/package/@material-ui/core
 - https://material-ui.com/
 - https://material-ui.com/api/typography/
