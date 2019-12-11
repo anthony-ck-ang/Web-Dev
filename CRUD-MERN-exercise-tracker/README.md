@@ -1,5 +1,11 @@
+## `What it does?`
+```html
+An exercise tracker built from the MERN stack that does CRUD operations.
+```
 
-## Instructions
+<br>
+
+## `Instructions`
 
 Check if node is installed:  `node -v`
 
@@ -35,7 +41,7 @@ and access rsc from remote hosts.<br />
 - auto restart node app /server when code/file changes
 
 
-## Back end
+## `Back end`
 
 1. Create server file: <br />
 server.js <br />
@@ -55,7 +61,7 @@ Copy the Cluster connection string from cloud.mongodb.com and paste in .env
 5. Test CRUD routes with POSTMAN  ||  Insomnia <br /> && Check MongoDB Atlas DashBoard
 
 
-## Front end:
+## `Front end:`
 
 ## `Create frontend folder`
 
@@ -93,7 +99,7 @@ Add to package.json:
   `npm update --save`
 
 
-## General
+## `General`
 1. Create and import components to app.js
 
 2. User react-router to map routes/path to load certain components
