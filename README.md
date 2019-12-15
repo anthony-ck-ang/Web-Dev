@@ -1,6 +1,8 @@
 # Web related
 
+### `For reference`
 ## Recent Projects:
+- simple-auth-jwt
 - job-consolidator
 - CRUD-MERN-exercise-tracker
 - CRUD-express-ejs-mysql
