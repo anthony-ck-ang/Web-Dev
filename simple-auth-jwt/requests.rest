@@ -1,0 +1,61 @@
+# Flow:
+# /newuser -> Register
+# /login -> Generate and return access + refresh token to browser in res
+# /posts -> Send req with the access token to get access to blog posts 
+# /token -> When access token is expired, uses the refresh token to 'renew' the access 
+# /delete -> Delete a refresh token when logout
+
+# *A new set of access + refresh token is created per login 
+
+###
+GET http://localhost:4000/getusers
+
+###
+POST http://localhost:4000/newuser
+Content-Type: application/json
+
+{
+  "username": "ant",
+  "password": "password"
+}
+
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+  "username": "ant",
+  "password": "password"
+}
+
+
+###
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYW50IiwiaWF0IjoxNTc2NDA2ODE2LCJleHAiOjE1NzY0MDc4MTZ9.u5Ij1jn4PjmUiBVXn47FwKZtBGtSZF6c_nPhzwXDLNk
+# Paste the generated token (from /login) above in Authorization header
+
+
+###
+POST http://localhost:4000/token
+Content-Type: application/json
+
+#Paste the generated/ returned refresh token
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYW50IiwiaWF0IjoxNTc2NDA2ODAwfQ.8n2OO8V7XQp9Sf0LEzwdt0RgAK9jJ4FNrCUi93OMO1c"
+}
+
+
+###
+DELETE http://localhost:4000/logout
+Content-Type: application/json
+
+//Paste the to be deleted refresh token
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYW50IiwiaWF0IjoxNTc2NDA2ODAwfQ.8n2OO8V7XQp9Sf0LEzwdt0RgAK9jJ4FNrCUi93OMO1c"
+}
+
+
+
+
+
